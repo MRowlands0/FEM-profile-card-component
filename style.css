@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: kumbh sans;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: -100px -100px, 800px bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 700px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: 350px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.profile-image {
+    width: 95px;
+    height: auto;
+    border-radius: 100%;
+    padding: px;
+    background-color: #ffffff;
+    float: left;
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+
+}
+
+.location {
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+.divider {
+    background-color:hsla(0, 0%, 59%, 50%);
+    height: 1px;
+    width: 100%;
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin: 0;
+    padding-top: 20px;
+}
+
+.age {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    padding-left: 10px;
+}
+
+.volumes {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.description {
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+}
